@@ -1,0 +1,413 @@
+@media screen and (max-width: 767px)
+
+{
+    body{
+        padding: 0;
+        padding-top:21px ; 
+     
+    }
+
+ 
+
+
+
+
+
+    #header
+    {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+        
+    }
+
+    
+    #header img
+    
+    {
+        width: 61.09px;
+        height: 19px;
+margin-top: 0;        margin-bottom: 25px ;
+    }
+    
+    #header  ul
+    {
+       display: flex; 
+       width: 100vw;
+       justify-content: space-around;
+    }
+    
+    
+    #header a
+    {
+        padding: 0;
+        color: #000;
+        font-weight: 400;
+        font-size: 16px;
+        
+        text-align: center;
+        
+
+    }
+    #header li
+    {
+        padding: 0;
+        padding-bottom: 23px;
+        padding-top: 23px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 34px;
+    }
+
+    #header a:hover
+    {
+        border: none;
+    }
+    #header li:hover
+
+    {
+        color: #0065FC;
+        
+        margin-bottom: 31px;
+        border: 0;
+        border-bottom: 3px solid #0065FC;
+    }
+
+
+    h1
+    {
+
+        margin-bottom: 13px;
+        padding-left: 20px;
+        margin-right: 57px;
+
+    }
+    
+    h2
+    {
+        padding-left: 20px;
+        margin-bottom: 36px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    form input[type="submit"]
+{
+display: none;
+}
+
+form
+{
+    width: 100%;
+    padding-left:22px ;
+    padding-right: 21px;
+    margin-bottom  : 34px;
+}
+form button i
+{
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 17px;
+    
+}
+
+form button
+{
+    border: none;
+    background-color: #0065FC;
+
+    padding: 16px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+
+form input[type="search"]
+
+{
+    margin-right: 61px;
+   
+    width: 100%;
+}
+
+
+form div
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+/* ajout du filtre et du i*/
+
+
+#filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left:20px ;
+    padding-right: 20px;
+    
+}
+
+#filtres p
+{
+
+    margin-right: 0%;
+    margin-bottom: 15px;
+}
+
+
+
+
+#filtres .btn
+{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 17px 0px;
+}
+
+#filtres button
+{
+    display: block;
+    padding: 0px 0% 0px 13px;
+    font-size: 11px;
+    font-weight: 700; 
+    max-width:none;
+    width: 48%;
+    text-align:left ;
+    border-radius: 25px;
+    height: 50px;
+}
+
+
+
+
+
+#filtres  i
+{
+    color: #0065FC;
+    margin-right: 5px;
+    font-size: 18px;
+    vertical-align: middle;
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info
+{
+    margin-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.info p
+{
+   
+    margin-left: 11px;
+}
+
+
+.info i 
+
+{
+    padding: 5px 9px;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+   
+
+}
+
+
+
+
+
+
+
+#sec-b 
+{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0;
+    margin-bottom: 0;
+    
+}
+.right
+{
+    padding:28px  5.557% 47px 5.557% ;
+    width: 100%;
+    height:580px ;
+
+    max-width:none;
+    
+
+    border-radius: 0;
+}
+.right .cards
+{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.right .card
+{
+    display: flex;
+    overflow: hidden;
+    width:100% ;
+    max-width:100%;
+}
+
+
+
+
+
+
+
+
+
+.left
+{
+    padding:26px  5.557% 105px 5.557% ;
+
+    width: 100%;
+    
+    background-color: white;
+    max-width:none;
+    margin-bottom: 0;
+
+    border-radius: 0;
+}
+
+h3{
+    margin-bottom: 19px;
+}
+
+.left .cards
+{
+
+
+    gap: 12px 0 ;
+}
+
+.left .card
+{
+    width: 100%;
+
+    max-width: none;
+
+}
+
+
+.left p:last-child
+{
+display: none;
+}
+
+
+
+
+
+
+
+#sec-c
+{
+
+    max-height: none;
+    margin-bottom: 80px;
+    padding-right: 5.557%;
+    padding-left: 5.557%;
+}
+
+h5
+{
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+#sec-c .cards
+{
+
+    flex-direction: column;
+    gap: 24px ;
+}
+
+#sec-c .card
+{
+    width: 100%;
+    max-width: none;
+    height: 190px;
+
+}
+
+#sec-c img
+{
+
+    height: 134px;
+    max-height: none;
+    
+}
+#sec-c .card:last-child p{
+    width: 100%;
+}
+#sec-c p
+{
+    padding: 20px 0px 0 4%;
+    display: block;
+}
+
+
+
+footer nav
+{
+    width: 100%;
+    height: 501px;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 8.5%;
+    padding-top: 45px;
+}
+
+}

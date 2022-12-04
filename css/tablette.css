@@ -1,0 +1,125 @@
+@media screen and (max-width: 991px)
+
+{
+
+
+body{
+    margin: auto;
+    max-width: 991px;
+    
+}
+
+
+
+
+#sec-b
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.left
+{
+    width: 100%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    margin-bottom: 52px;
+}
+
+
+.right
+{
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: none;
+    width: 100%;
+    height: 278px;
+
+
+}
+
+.right .cards
+{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+}
+.right .card
+{
+
+    overflow: hidden;
+    width: 31%;
+    max-width: 252px;
+}
+
+
+
+
+
+
+
+
+#filtres .btn
+{
+    width: 780px;
+}
+
+#filtres button
+{
+    padding: 10px 1.5%;
+}
+
+
+
+
+#sec-c .cards{
+    gap: 50px;
+}
+
+#sec-c .card
+{
+    width: 50%;
+    max-width: 200px;
+    max-height: 267px;
+    
+
+}
+
+#sec-c img
+{
+    width: 100%;
+    height: 389px;
+    max-height: 211px;
+
+    
+}
+
+#sec-c p
+{
+    padding-top:0 ;
+    padding-left:19px ;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+#sec-c .card:last-child p{
+    width: 127px;
+}
+
+
+
+footer nav
+{
+
+    gap: 12%;
+
+}
+}
