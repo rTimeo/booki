@@ -1,8 +1,6 @@
 
-
 *
 {
-   
     margin: 0;
     padding: 0;
     font-family: 'Raleway';
@@ -14,21 +12,9 @@
 
 body
 {
-    
     max-width: 1400px;
-    
-    
-    
-    
     margin: 0 auto;
-    
-    
-    font-size: 16px;
     padding: 0 2% 0 2%;
-    
-
-    
-   
 }
 
 /*Header de la page */
@@ -37,7 +23,6 @@ body
 {
     display: flex;
     justify-content: space-between;
-    
 }
 
 #header img
@@ -50,24 +35,25 @@ body
 
 #header  ul
 {
-   display: flex; 
+    display: flex; 
 }
 
-#header li, 
+#header li,
 #header a
 {
     padding: 48px 24.5px 0 24.5px;
+
     color: #000;
     font-weight: 500;
-    font-size: 1em;
-    
+    font-size: 16px;
 }
 
 
 #header a:hover
 {
+    padding-top: 46px;
+    
     border-top: 2px solid #0065FC;
-    padding: 46px 24.5px 0 24.5px;
     color: #0065FC;
 }
 
@@ -76,27 +62,27 @@ body
 
 h1
 {
+    margin-bottom: 8px; 
+
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: 8px;
-    
 }
 
 h2
 {
+    margin-bottom: 20px;
+
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20px;
 }
 
 
 form
 {
     display: flex;
+
     margin-bottom: 32px;
-    margin-right: 0;
     height: 49px;
-    
 }
 
 form input
@@ -109,28 +95,27 @@ form input
 
 form div
 {
+    display: flex;
+    overflow: hidden;
+
     border: 1px solid #F2F2F2;
     border-bottom-left-radius: 14px;
     border-top-left-radius: 14px;
-    overflow: hidden;
-    display: flex;
 }
 
 form div i
 {
     padding: 16px 18px 15px;
     background-color: #F2F2F2;
-
-   
-   
 }   
 
 form input[type="search"]
 {
+    outline: none;
+    appearance: none;
+
     margin-right: 10px;
     margin-left: 16px;
-    outline: none;
-    appearance:none ;
 }
 /*remove the cross*/
 input[type="search"]::-webkit-search-cancel-button 
@@ -161,72 +146,52 @@ input[type="search"]:hover
 }
 
 
-@media screen and (min-width: 767px){
-
-form button
-{
-    display: none;
-    
-}
-
-
-}
 /* ajout du filtre et du i*/
 
 
 #filtres
 {
     display: flex;
-   
+
     margin-bottom: 30px;
     font-size: 18px;
     font-weight: 700;
-    
-    
 }
 
-#filtres p
+#filtres span
 {
     align-self: center;
     margin-right: 2%;
 }
-
-
-
 
 #filtres .btn
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     width: 880px;
-    text-align: center;
-    
 }
 
 #filtres button
 {
-    display: block;
     padding: 10px 2.273%;
+
     border: 2px solid #D9D9D9;
-    border-radius: 25px;
     background-color: #FFF;
+    border-radius: 25px;
+
     font-size: 17px;
     font-weight: 700; 
-    
-
-
 }
 
 #filtres i
 {
-    color: #0065FC;
-    margin-right: 10px;
-    font-size: 19px;
     vertical-align: middle;
-    
-    
-   
+
+    margin-right: 10px;
+    color: #0065FC;
+    font-size: 19px;
 }
 
 #filtres button:hover
@@ -237,6 +202,8 @@ form button
     transition: 0.15s;
 }
 
+
+
 /*info + p */
 
 
@@ -246,7 +213,6 @@ form button
     display: flex;
 
     margin-bottom: 37px ;
-    
 }
 
 
@@ -254,38 +220,39 @@ form button
 
 {
     padding: 7px 10px;
-
-    height: 24px;
-   font-size: 10px;
+    margin-right: 11px ;
 
     border: 1px solid #D9D9D9;
     border-radius: 50%;
     color: #0065FC;
-    
+
+    font-size: 10px;
 }
-
-
 
 .info p 
 {
+    align-self: center;
 
     font-size: 16px;
     font-weight: 400;
     color: black;
-    align-self: center;
 }
+
 
 /*ajout section 2 
  "Hébergements à Marseille" et "Les plus populaires"*/
 
-/* p et i*/
 #sec-b 
-{
+ {
     display: flex;
     gap: 3%;
     margin-bottom: 60px;
     
 }
+
+/* p et i*/
+
+
 #sec-b .container p:nth-child(1)
 {
     font-size: 16px;
@@ -308,7 +275,7 @@ form button
     font-size: 12px;
     letter-spacing: -3px;
 }
-#sec-b .container i:last-child
+#sec-b .container i:nth-child(5)
 {
     color:#D9D9D9
 }
@@ -341,6 +308,7 @@ h3{
     flex-wrap: wrap;
 
     gap: 30px 0 ;
+    margin-bottom: 40px;
 }
 
 .left .card
@@ -369,7 +337,6 @@ h3{
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 
     padding:3% 0 2% 3%;
     gap: 3.5px 0;
@@ -378,14 +345,11 @@ h3{
 }
 
 
-.left p:last-child
+.left a>span
 {
-    display: inline-block;
-    margin-top: 40px;
     font-weight:700;
     font-size: 18px;
     color: #000;
-    
 }
 
 
@@ -482,10 +446,7 @@ h3{
 
 #sec-c
 {
-    max-width: 1337px ;
-    max-height: 493px;
     margin-bottom: 40px;
-    
 }
 
 h5
@@ -508,46 +469,54 @@ h5
     max-width: 302px;
     max-height: 444.51px;
     border-radius: 20px;
+    
     overflow: hidden;
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
 }
 
 #sec-c img
 {
+    display: block;
+
     width: 100%;
     height: 389px;
     max-height: 389px;
     object-fit:cover ;
-    display: block;
-    
 }
 
 #sec-c p
 {
+    width: 100%;
+    height: 56px;
     padding: 20px 0px 0 4%;
+
     color: black;
     font-size: 16px;
     font-weight: 700;
-    height: 56px;
-    width: 100%;
-    
-    
 }
+
+
+
+/*footer*/
 
 
 footer nav
 {
-    max-width: 1339px;
-    height: 225px;
-    background-color: #F2F2F2;
     display: flex;
     gap: 18%;
+
+    height: 225px;
     padding-left: 5.215%;
     padding-top: 45px;
-}
 
-footer p
+    background-color: #F2F2F2;
+}   
+
+
+footer span
 {
+    display: block;
+
     font-size:18px ;
     font-weight:700 ;
     margin-bottom: 20px;
@@ -563,3 +532,5 @@ footer li a
 {
     color: #000;
 }
+
+
