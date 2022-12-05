@@ -2,11 +2,14 @@
 
 {
 
+#filtres .btn
+{
+    width: 780px;
+}
 
-body{
-    margin: auto;
-    max-width: 991px;
-    
+#filtres button
+{
+    padding: 10px 1.5%;
 }
 
 
@@ -16,10 +19,7 @@ body{
 {
     display: flex;
     flex-direction: column;
-    
 }
-
-
 
 .left
 {
@@ -34,25 +34,23 @@ body{
 
 .right
 {
-    padding-left: 5%;
-    padding-right: 5%;
     max-width: none;
     width: 100%;
     height: 278px;
 
-
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .right .cards
 {
     display: flex;
     flex-direction: row;
-    gap: 0;
     justify-content: space-between;
+    gap: 0;
 }
 .right .card
 {
-
     overflow: hidden;
     width: 31%;
     max-width: 252px;
@@ -62,23 +60,8 @@ body{
 
 
 
-
-
-
-#filtres .btn
+#sec-c .cards
 {
-    width: 780px;
-}
-
-#filtres button
-{
-    padding: 10px 1.5%;
-}
-
-
-
-
-#sec-c .cards{
     gap: 50px;
 }
 
@@ -87,8 +70,6 @@ body{
     width: 50%;
     max-width: 200px;
     max-height: 267px;
-    
-
 }
 
 #sec-c img
@@ -96,30 +77,25 @@ body{
     width: 100%;
     height: 389px;
     max-height: 211px;
-
-    
 }
 
 #sec-c p
 {
-    padding-top:0 ;
-    padding-left:19px ;
-    padding-bottom: 0;
     display: flex;
     align-items: center;
-    padding-bottom: 0;
+
+    padding: 0 1px 0 19px ;
 }
 
-#sec-c .card:last-child p{
+#sec-c .card:last-child p
+{
     width: 127px;
 }
 
 
-
 footer nav
 {
-
     gap: 12%;
-
 }
+
 }

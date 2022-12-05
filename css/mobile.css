@@ -1,24 +1,28 @@
+@media screen and (min-width: 768px){
+
+    form button
+    {
+        display: none;
+    }
+
+}
 @media screen and (max-width: 767px)
 
 {
-    body{
+    body
+    {
         padding: 0;
         padding-top:21px ; 
-     
     }
 
- 
-
-
-
+/* header li a*/
 
 
     #header
     {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
     }
 
     
@@ -27,44 +31,43 @@
     {
         width: 61.09px;
         height: 19px;
-margin-top: 0;        margin-bottom: 25px ;
+        margin-top: 0;        
+        margin-bottom: 25px;
     }
     
     #header  ul
     {
-       display: flex; 
-       width: 100vw;
-       justify-content: space-around;
+        display: flex; 
+        justify-content: space-around;
+        width: 100vw;
     }
     
+
+    #header li
+    {
+        text-align: center;
+        padding: 23px 0;
+        width: 100%;
+
+        margin-bottom: 34px;
+    }
     
     #header a
     {
+        text-align: center;
         padding: 0;
+
         color: #000;
         font-weight: 400;
         font-size: 16px;
-        
-        text-align: center;
-        
-
-    }
-    #header li
-    {
-        padding: 0;
-        padding-bottom: 23px;
-        padding-top: 23px;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 34px;
     }
 
     #header a:hover
     {
         border: none;
     }
-    #header li:hover
 
+    #header li:hover
     {
         color: #0065FC;
         
@@ -73,14 +76,13 @@ margin-top: 0;        margin-bottom: 25px ;
         border-bottom: 3px solid #0065FC;
     }
 
+/*section a*/
 
     h1
     {
-
-        margin-bottom: 13px;
         padding-left: 20px;
+        margin-bottom: 13px;
         margin-right: 57px;
-
     }
     
     h2
@@ -89,162 +91,108 @@ margin-top: 0;        margin-bottom: 25px ;
         margin-bottom: 36px;
     }
     
+/* barre de recherche*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+    form
+    {
+        width: 100%;
+        padding: 0 21.5px;
+        margin-bottom: 34px;
+    } 
 
     form input[type="submit"]
-{
-display: none;
-}
-
-form
-{
-    width: 100%;
-    padding-left:22px ;
-    padding-right: 21px;
-    margin-bottom  : 34px;
-}
-form button i
-{
-    color: rgb(255, 255, 255);
-    border: none;
-    font-size: 17px;
-    
-}
-
-form button
-{
-    border: none;
-    background-color: #0065FC;
-
-    padding: 16px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius:15px ;
-}
-
-form input[type="search"]
-
-{
-    margin-right: 61px;
-   
-    width: 100%;
-}
+    {
+        display: none;
+    }
 
 
-form div
-{
-    width: 100%;
-}
+    form button
+    {
+
+        padding: 16px;
+        border: none;
+
+        background-color: #0065FC;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius:15px ;
+    }
+
+    form button i
+    {
+        color: rgb(255, 255, 255);
+        font-size: 17px;     
+    }
 
 
+    form input[type="search"]
+
+    {
+        width: 100%;
+        margin-right: 61px;
+    }
+
+    form div
+    {
+        width: 100%;
+    }
 
 
-
-
-
-/* ajout du filtre et du i*/
+/*filtres */
 
 
 #filtres
 {
     display: flex;
     flex-wrap: wrap;
+
+    padding: 0 20px;
     margin-bottom: 40px;
+
     font-size: 18px;
     font-weight: 700;
-    padding-left:20px ;
-    padding-right: 20px;
-    
 }
 
-#filtres p
+#filtres span
 {
 
-    margin-right: 0%;
+    margin-right: 0;
     margin-bottom: 15px;
 }
-
-
 
 
 #filtres .btn
 {
     display: flex;
+
     width: 100%;
-    text-align: center;
     gap: 17px 0px;
 }
 
 #filtres button
 {
-    display: block;
-    padding: 0px 0% 0px 13px;
-    font-size: 11px;
-    font-weight: 700; 
-    max-width:none;
-    width: 48%;
     text-align:left ;
-    border-radius: 25px;
+
+    padding-left: 13px;
+    width: 48%;
     height: 50px;
+    
+    font-size: 11px;
 }
-
-
-
-
 
 #filtres  i
 {
-    color: #0065FC;
     margin-right: 5px;
-    font-size: 18px;
-    vertical-align: middle;
-    
-   
+    font-size: 18px;    
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*info*/
 
 
 .info
 {
-    margin-bottom: 17px;
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-
-.info p
-{
-   
-    margin-left: 11px;
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 
@@ -252,38 +200,33 @@ form div
 
 {
     padding: 5px 9px;
-    width: 24px;
     height: 24px;
     font-size: 12px;
-   
-
 }
 
-
-
-
-
-
+/*section b*/
 
 #sec-b 
 {
     display: flex;
     flex-direction: column-reverse;
     gap: 0;
-    margin-bottom: 0;
-    
+    margin-bottom: 0;   
 }
+
+/*right*/
+
 .right
 {
-    padding:28px  5.557% 47px 5.557% ;
-    width: 100%;
-    height:580px ;
-
+    padding:28px  5.557% 47px 5.557%;
+ 
     max-width:none;
-    
+    width: 100%;
+    height: 580px;
 
     border-radius: 0;
 }
+
 .right .cards
 {
     display: flex;
@@ -296,80 +239,66 @@ form div
 {
     display: flex;
     overflow: hidden;
+
     width:100% ;
     max-width:100%;
 }
 
-
-
-
-
-
-
+/*left*/
 
 
 .left
 {
     padding:26px  5.557% 105px 5.557% ;
-
+    
+    max-width:none;
     width: 100%;
     
-    background-color: white;
-    max-width:none;
     margin-bottom: 0;
-
     border-radius: 0;
+    background-color: white;
 }
 
-h3{
+h3
+{
     margin-bottom: 19px;
 }
 
 .left .cards
 {
-
-
     gap: 12px 0 ;
 }
 
 .left .card
 {
     width: 100%;
-
     max-width: none;
-
 }
 
 
-.left p:last-child
+.left a>span
 {
 display: none;
 }
 
 
-
-
-
-
+/*section c*/
 
 #sec-c
 {
-
+    padding: 0 5.557%;
     max-height: none;
     margin-bottom: 80px;
-    padding-right: 5.557%;
-    padding-left: 5.557%;
 }
 
 h5
 {
-    margin-bottom: 10px;
     width: 40%;
+    margin-bottom: 10px;
 }
 
 #sec-c .cards
 {
-
     flex-direction: column;
     gap: 24px ;
 }
@@ -389,23 +318,28 @@ h5
     max-height: none;
     
 }
-#sec-c .card:last-child p{
-    width: 100%;
-}
+
 #sec-c p
 {
-    padding: 20px 0px 0 4%;
     display: block;
+    padding: 20px 0px 0 4%;
 }
 
-
-
-footer nav
+#sec-c .card:last-child p
 {
     width: 100%;
-    height: 501px;
+}
+
+/*footer*/
+
+footer nav
+{  
     flex-direction: column;
     gap: 40px;
+
+    width: 100%;
+    height: 501px;
+  
     padding-left: 8.5%;
     padding-top: 45px;
 }
