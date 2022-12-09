@@ -15,7 +15,7 @@
 
 
 
-#sec-b
+#center
 {
     display: flex;
     flex-direction: column;
@@ -60,26 +60,26 @@
 
 
 
-#sec-c .cards
+#bottom .cards
 {
     gap: 50px;
 }
 
-#sec-c .card
+#bottom .card
 {
     width: 50%;
     max-width: 200px;
     max-height: 267px;
 }
 
-#sec-c img
+#bottom img
 {
     width: 100%;
     height: 389px;
     max-height: 211px;
 }
 
-#sec-c p
+#bottom p
 {
     display: flex;
     align-items: center;
@@ -87,7 +87,7 @@
     padding: 0 1px 0 19px ;
 }
 
-#sec-c .card:last-child p
+#bottom .card:last-child p
 {
     width: 127px;
 }

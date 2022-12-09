@@ -242,7 +242,7 @@ input[type="search"]:hover
 /*ajout section 2 
  "Hébergements à Marseille" et "Les plus populaires"*/
 
-#sec-b 
+#center 
  {
     display: flex;
     gap: 3%;
@@ -253,29 +253,29 @@ input[type="search"]:hover
 /* p et i*/
 
 
-#sec-b .container p:nth-child(1)
+#center .container p:nth-child(1)
 {
     font-size: 16px;
     font-weight: 700;
 }
-#sec-b .container p:nth-child(2)
+#center .container p:nth-child(2)
 {
     font-size: 14px;
     font-weight: 400;
 }
 
-#sec-b span
+#center span
 {
     font-weight: 600; 
 }
 
-#sec-b .container i
+#center .container i
 {
     color: #0065FC;
     font-size: 12px;
     letter-spacing: -3px;
 }
-#sec-b .container i:nth-child(5)
+#center .container i:nth-child(5)
 {
     color:#D9D9D9
 }
@@ -444,7 +444,7 @@ h3{
 /*sec b*/
 /*bottom*/
 
-#sec-c
+#bottom
 {
     margin-bottom: 40px;
 }
@@ -456,14 +456,14 @@ h5
     font-weight: 700;
 }
 
-#sec-c .cards
+#bottom .cards
 {
     display: flex;
     justify-content: space-between;
     gap: 1%;
 }
 
-#sec-c .card
+#bottom .card
 {
     width: 50%;
     max-width: 302px;
@@ -474,7 +474,7 @@ h5
     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
 }
 
-#sec-c img
+#bottom img
 {
     display: block;
 
@@ -484,7 +484,7 @@ h5
     object-fit:cover ;
 }
 
-#sec-c p
+#bottom p
 {
     width: 100%;
     height: 56px;

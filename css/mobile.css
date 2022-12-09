@@ -206,7 +206,7 @@
 
 /*section b*/
 
-#sec-b 
+#center
 {
     display: flex;
     flex-direction: column-reverse;
@@ -284,7 +284,7 @@ display: none;
 
 /*section c*/
 
-#sec-c
+#bottom
 {
     padding: 0 5.557%;
     max-height: none;
@@ -297,13 +297,13 @@ h5
     margin-bottom: 10px;
 }
 
-#sec-c .cards
+#bottom .cards
 {
     flex-direction: column;
     gap: 24px ;
 }
 
-#sec-c .card
+#bottom .card
 {
     width: 100%;
     max-width: none;
@@ -311,7 +311,7 @@ h5
 
 }
 
-#sec-c img
+#bottom img
 {
 
     height: 134px;
@@ -319,13 +319,13 @@ h5
     
 }
 
-#sec-c p
+#bottom p
 {
     display: block;
     padding: 20px 0px 0 4%;
 }
 
-#sec-c .card:last-child p
+#bottom .card:last-child p
 {
     width: 100%;
 }
