@@ -115,6 +115,7 @@
         background-color: #0065FC;
         border-top-right-radius: 15px;
         border-bottom-right-radius:15px ;
+        cursor: pointer;
     }
 
     form button i

@@ -133,17 +133,11 @@ form input[type="submit"]
 
     border-top-right-radius: 15px;
     border-bottom-right-radius:15px ; 
-}
-
-
-form input[type="submit"]:hover
-{
     cursor: pointer;
 }
-input[type="search"]:hover
-{
-    outline: none;
-}
+
+
+
 
 
 /* ajout du filtre et du i*/
