@@ -56,10 +56,7 @@
     {
         text-align: center;
         padding: 0;
-
-        color: #000;
         font-weight: 400;
-        font-size: 16px;
     }
 
     #header a:hover
@@ -177,13 +174,13 @@
     width: 48%;
     height: 50px;
     
-    font-size: 11px;
+    font-size: 0.6875rem;
 }
 
 #filtres  i
 {
     margin-right: 5px;
-    font-size: 18px;    
+    font-size: 1.125rem;    
 }
 
 

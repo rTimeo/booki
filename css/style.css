@@ -45,7 +45,7 @@ body
 
     color: #000;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -65,14 +65,14 @@ h1
     margin-bottom: 8px; 
 
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 h2
 {
     margin-bottom: 20px;
 
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -88,7 +88,7 @@ form
 form input
 {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: white;
     border: none;
 }
@@ -148,7 +148,7 @@ form input[type="submit"]
     display: flex;
 
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
 }
 
@@ -175,7 +175,7 @@ form input[type="submit"]
     background-color: #FFF;
     border-radius: 25px;
 
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700; 
 }
 
@@ -185,7 +185,7 @@ form input[type="submit"]
 
     margin-right: 10px;
     color: #0065FC;
-    font-size: 19px;
+    font-size: 1.187rem;
 }
 
 #filtres button:hover
@@ -220,14 +220,14 @@ form input[type="submit"]
     border-radius: 50%;
     color: #0065FC;
 
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .info p 
 {
     align-self: center;
 
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: black;
 }
@@ -249,12 +249,12 @@ form input[type="submit"]
 
 #center .container p:nth-child(1)
 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 #center .container p:nth-child(2)
 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
 }
 
@@ -266,7 +266,7 @@ form input[type="submit"]
 #center .container i
 {
     color: #0065FC;
-    font-size: 12px;
+    font-size: 0.75rem;
     letter-spacing: -3px;
 }
 #center .container i:nth-child(5)
@@ -291,7 +291,7 @@ form input[type="submit"]
 h3{
     margin-bottom: 23px;
 
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
@@ -342,7 +342,7 @@ h3{
 .left a>span
 {
     font-weight:700;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000;
 }
 
@@ -374,7 +374,7 @@ h3{
 
 .right h4
 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
@@ -382,7 +382,7 @@ h3{
 {
     align-self: center;
 
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #0065FC;
 }
 
@@ -446,7 +446,7 @@ h3{
 h5
 {
     margin-bottom: 18.47px;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 
@@ -485,7 +485,7 @@ h5
     padding: 20px 0px 0 4%;
 
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -511,14 +511,14 @@ footer span
 {
     display: block;
 
-    font-size:18px ;
+    font-size:1.125rem ;
     font-weight:700 ;
     margin-bottom: 20px;
 }
 
 footer li 
 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 12px;
 }
