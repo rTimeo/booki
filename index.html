@@ -45,34 +45,36 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre-ville ou en pleine nature</h2>
 
-<form>
-  <div>
-    <i class="fa-solid fa-location-dot"></i>  
-    <input type="search" required >
-  </div>
+        <form>
+          <div>
+            <i class="fa-solid fa-location-dot"></i>  
+            <input type="search" required >
+          </div>
 
-  <input type="submit" value="Rechercher" >
-  <button type="submit">
-    <i class="fa-solid fa-magnifying-glass"></i>
-  </button> 
-</form>
+          <input type="submit" value="Rechercher" >
 
-            <div id="filtres">
-                
-                  <span>Filtres</span>
-                
-                  <div class="btn">
-                      <button ><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
-                      <button ><i class="fa-solid fa-person"></i>Familial</button>
-                      <button ><i class="fa-solid fa-heart"></i>Romantique</button>
-                      <button ><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
-                  </div>
-            </div>
+          <!--btn submit pour le mobile-->
+          <button type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button> 
+        </form>
 
-            <div class="info">
-              <i class="fa-solid fa-info"></i>
-              <p>  Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
+        <div id="filtres">
+            
+              <span>Filtres</span>
+            
+              <div class="btn">
+                  <button ><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                  <button ><i class="fa-solid fa-person"></i>Familial</button>
+                  <button ><i class="fa-solid fa-heart"></i>Romantique</button>
+                  <button ><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
+              </div>
+        </div>
+
+        <div class="info">
+          <i class="fa-solid fa-info"></i>
+          <p>  Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
     </section>
 
     <!-- section b = bloc left et right -->
@@ -82,7 +84,7 @@
     
         <h3 id="heb">Hébergements à Marseille</h3>
 
-          <div class="cards">
+          <article class="cards">
               <a class="card" href="#">
                       <img src="images/hebergements/aubergelacanabiere.jpg" alt="auberge la canabière">
                       <div class="container">
@@ -167,7 +169,7 @@
                           </div>
                       </div>
               </a>
-            </div>
+          </article>
 
           <a href="#">
             <span>Afficher plus</span>
@@ -180,7 +182,7 @@
           <i class="fa-solid fa-chart-line"></i>
         </div>
 
-        <div class="cards">
+        <article class="cards">
             <a class="card" href="#">
                 <img src="images/hebergements/hotellesoleildumatin.jpg" alt="hôtel le soleil du matin">
                 <div class="container">
@@ -229,7 +231,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+        </article>
       </div>
     </section>
   
@@ -240,7 +242,7 @@
         Activités à Marseille
       </h5>
 
-      <div class="cards">
+      <article class="cards">
         <a class="card" href="#">
           <img src="images/activites/vieuxport.jpg" alt="vieux-port">
           <p>Vieux-port</p>
@@ -261,7 +263,7 @@
           <img src="images/activites/notredame.jpg" alt="notre-dame-de-la-garde">
           <p>Notre-Dame-de-la-Garde</p>
         </a>
-      </div>
+      </article>
     </section>
   </main>
 
