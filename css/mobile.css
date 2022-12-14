@@ -35,11 +35,12 @@
         margin-bottom: 25px;
     }
     
-    #header  ul
+    #header  nav,
+    #header ul
     {
         display: flex; 
         justify-content: space-around;
-        width: 100vw;
+        width: 100%;
     }
     
 
@@ -92,7 +93,7 @@
 
     form
     {
-        width: 100%;
+        
         padding: 0 21.5px;
         margin-bottom: 34px;
     } 
@@ -125,7 +126,6 @@
     form input[type="search"]
 
     {
-        width: 100%;
         margin-right: 61px;
     }
 
