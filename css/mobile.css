@@ -68,6 +68,10 @@
         border-bottom: 3px solid #0065FC;
     }
 
+    #header li:hover a{
+        color: #0065FC;
+    }
+
 /*section a*/
 
     h1
